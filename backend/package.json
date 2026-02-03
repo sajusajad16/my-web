@@ -1,0 +1,17 @@
+{
+  "name": "my-web-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Express backend for modern communication app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
